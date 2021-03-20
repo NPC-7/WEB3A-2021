@@ -1,0 +1,6 @@
+PERTANYAAN WEB3A 2021
+
+- Apa beda objek dengan kelas?
+- Apa mengapa string primitif dengan objek kelas String berbeda? Padahal keduanya pada dasarnya mengadopsi konsep array yg mana adalah sebuah objek juga? Jadi mengapa string primitif tidak dianggap objek?
+- string pada hasil typeof kepada sebuah variabel string itu sebenarnya apa?
+- 

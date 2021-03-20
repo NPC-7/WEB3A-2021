@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PPW3A</title>
+  </head>
+  <body>
+    <script>
+      //A Variabel
+      let x = 1;
+      for(let x=1; x<4; x++){
+        console.log('dalam perulangan nilai x = '+x);
+      }
+      console.log('di luar perulangan nilai x = '+x);
+      // a=1;
+      // console.log("hasil awal: "+a);
+      // let a=4;
+      // console.log("hasil akhir: "+a);
+
+      //B
+      var text1 = 'Praktikum';
+      var text2 = "Pemrograman Web";
+      console.log('isi text1 adalah = '+text1);
+      console.log('isi text2 adalah = '+text2);
+      console.log(`${text1} ${text2}`);
+
+      var contoh1 = "Contoh string dengan\n"+
+                   "baris-baris baru menggunakan\n"+
+                   "backslash dan 'n'.";
+      console.log(contoh1);
+
+      var contoh2 = `Contoh string dengan
+baris-baris baru tanpa
+backslash dan 'n',
+menggunakan tick (\` \`).`;
+      console.log(contoh2);
+
+      //C Array
+      //
+      var deret = [11,22,33,44,55];
+      //no. indeks 0, 1, 2, 3, 4
+
+      console.log(deret[0]);//luarannya 11
+      console.log(deret[2]);//luarannya 33
+      console.log(deret);//luarnnya seluruh data array
+
+      //Associative Array
+      var larik = {'univ':'UGM', "prodi":"Komsi", "semester":6};
+
+      console.log(larik['univ']);//luaran UGM
+      console.log(larik['semester']);//luaran 6
+      console.log(larik['prodi']);//luaran Komsi
+      console.log(larik);//luaran semua data array
+
+      //D Function
+      function cetakBalik(a,b) {
+        c = a*b;
+        return c;
+      }
+      hasil_1=cetakBalik(4,5);
+      console.log(hasil_1);
+
+      function cetakLog(a,b) {
+        for(let i=0;i<b;i++){
+          console.log(a);
+        }
+      }
+      hasil_2 = cetakLog(2,4);
+      console.log(hasil_2);
+
+
+      function mhs1(nama,umur,prodi) {
+        console.log(`${nama} adalah mahasiswa dari prodi ${prodi} dengan umur ${umur} tahun.`);
+      }
+
+      mhs1("Udin",18,"RPL");
+      mhs1("Idin");
+
+      function mhs2(nama="Jin",umur=19,prodi="TRPL") {
+        console.log(`${nama} adalah mahasiswa dari prodi ${prodi} dengan umur ${umur} tahun.`);
+      }
+
+      mhs2("Jun");
+
+      //E Anonymous Function
+      var tambah = function (a,b) {
+        return a+b;
+      }
+      console.log(tambah);
+      console.log(tambah(4,5));
+
+      var kurang = function (a,b) {
+        return a-b;
+      }
+      console.log(kurang);
+      console.log(kurang(4,5));
+
+
+      //F Spread Operator
+      var buah = ['apel','jeruk','melon'];
+      console.log(buah);
+      console.log(...buah);
+
+      var buah2= [...buah, 'pelem', 'anggur'];
+      console.log(buah2);
+
+      var mahasiswa = ['Jono', 2019, 'RPL'];
+
+      mhs = (nama, angkatan, prodi)=>{
+        console.log(`${nama} merupakan mahasiswa ${prodi} dari angkatan ${angkatan}`);
+      }
+
+      mhs(...mahasiswa);
+
+    </script>
+  </body>
+</html>

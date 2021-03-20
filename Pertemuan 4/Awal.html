@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PPW3A</title>
+  </head>
+  <body>
+    <script>
+
+    var a = new Number(9);
+    console.log(typeof a);
+    let b = 4;
+    console.log(typeof b);
+    let c = new String('Javascript');
+    console.log(typeof c);
+    let d = 'Javascript';
+    console.log(typeof d);
+    let e = new Array(10,20,40);
+    console.log(typeof e);
+    let f = [11,22,33];
+    console.log(typeof f);
+
+    console.log(a instanceof Number);
+    console.log(b instanceof Object);
+    console.log(c instanceof String);
+    console.log(c instanceof Object);
+
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+    console.log(e);
+    console.log(f);
+    console.log();
+
+    //Membuat Objek
+
+    //Membuat Objek dengan fungsi pendefinisi/tempalte/blueprint terlebih dahulu
+    //Mendefinisikan properties suatu objek
+    function segitiga(a,t) {
+      this.alas = a;
+      this.tinggi = t;
+    }
+
+    //Mendefinisikan methods soatu objek
+    segitiga.prototype.luas=function () {
+      return this.alas * this.tinggi /2;
+    }
+
+    //Membuat dan menggunakan objek
+    var obj = new segitiga(4,5);
+
+    console.log(`Alas : ${obj.alas}`);
+    console.log(`Tinggi : ${obj.tinggi}`);
+    console.log(obj.luas());
+    console.log(obj);
+
+    //Membuat Objek dengan Langsung Memasukkan ke dalam Sebuah Variabel
+    var objek = {
+      alas:7,
+      tinggi:12,
+      luas:function () {
+        return this.alas*this.tinggi/2;
+      }
+    }
+
+    console.log(`alasnya : ${objek.alas}`);
+    console.log(`tingginya : ${objek.tinggi}`);
+    console.log(`luasnya : ${objek.luas()}`);
+
+    //Membuat class
+    class Segitiga{
+      constructor(a,t){
+        this.alas=a;
+        this.tinggi=t;
+      }
+
+      luas(){
+        return this.alas*this.tinggi/2;
+      }
+    }
+
+    var obj_1 = new Segitiga(4,5);
+    console.log(`Luas segitiga ini adalah ${obj.luas()}`);
+
+    //Membuat Kelas Turunan (Subclass) dan penerapan Inheritance
+    class SegitigaWarna extends Segitiga{
+      constructor(a,t,w){
+        super(a,t);
+        this.warna=w;
+      }
+
+      cetakProperti(){
+        console.log(super.luas());
+
+        console.log(`warnanya adalah ${this.warna}`);
+      }
+    }
+
+    var obj_2 = new SegitigaWarna(6,5,'Hijau');
+    obj_2.cetakProperti();
+
+
+    //TUGAS
+    class BangunDatar{
+
+      constructor(tipe, a, b){
+        if(tipe=="[]"){
+          this.tipe=tipe;
+          this.panjang = a;
+          this.lebar = b;
+          this.keterangan ="Ini Persegi";
+        }else if (tipe=="O") {//Radius O menggunakan rumus Elips yang lebih detail
+          this.tipe=tipe;
+          this.radius1 = a;
+          if(b!=undefined){
+            this.radius2 = b;
+          }else{
+            this.radius2 = this.radius1;
+          }
+          this.keterangan = "Ini Lingkaran";
+        }else{
+          this.tipe = tipe;
+          this.keterangan = "Ini bukan lingkaran ataupun persegi";
+        }
+      }
+
+      getLuas(){
+        if(this.tipe=="[]"){
+          return this.panjang*this.lebar;
+        }else if(this.tipe=="O"){
+          return this.radius1*this.radius2*2/7;
+        }else{
+          console.log(this.keterangan);
+        }
+      }
+    }
+
+    class BangunRuang extends BangunDatar{
+
+      constructor(tipe,a,b,c){
+        super(tipe,a,b);
+        this.tinggi = c;
+
+        this.keterangan2D=this.keterangan;
+      }
+
+      getVolume(){
+        if(this.tipe=="[]"||this.tipe=="O"){
+          return this.getLuas()*this.tinggi;
+        }else{
+          this.showKet2D();
+          return `tidak diketahui.`
+        }
+      }
+
+      showKet2D(){
+        console.log(`${this.keterangan2D}`);
+      }
+    }
+
+    var bangunDatar1 = new BangunDatar("[]", 4, 6)
+    var bangunDatar2 = new BangunDatar("O", 4)
+
+    console.log(bangunDatar1);
+    console.log(bangunDatar1.getLuas());
+    console.log(bangunDatar2);
+    console.log(bangunDatar2.getLuas());
+    
+    var bangunRuang1 = new BangunRuang("[]",2,2,2)
+    var bangunRuang2 = new BangunRuang("O",4,null,5)
+    var bangunRuang3 = new BangunRuang("sak",2,1,2)
+
+    console.log(bangunRuang1);
+    console.log(bangunRuang2);
+
+    console.log(`Volume bangun ruang pertama adalah ${bangunRuang1.getVolume()}`);
+    console.log(`Volume bangun ruang kedua adalah ${bangunRuang2.getVolume()}`);
+    console.log(`Volume bangun ruang ketiga adalah ${bangunRuang3.getVolume()}`);
+
+    </script>
+  </body>
+</html>
