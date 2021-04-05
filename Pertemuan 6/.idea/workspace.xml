@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ab7ba56-bcb4-4525-bc31-592a42b18805" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Mencoba React JS/mencoba-react-js/src/Ppw3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mencoba React JS/mencoba-react-js/src/Tugas4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pertemuan 7/CobaReactJS/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pertemuan 7/CobaReactJS/.idea/CobaReactJS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pertemuan 7/CobaReactJS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pertemuan 7/CobaReactJS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pertemuan 7/CobaReactJS/try-react" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pertemuan 7/Laporan Praktikum PWEB3A 2021 15-03-21.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pertemuan 7/Laporan Praktikum PWEB3A 2021 15-03-21.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pertemuan 7/Mencoba React JS/mencoba-react-js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Pengerjaan/PPW3A_431735_Maulana Adam Sahid.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Pengerjaan/~$W3A_431735_Maulana Adam Sahid.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Pengerjaan/~WRL0313.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/.idea/uts-pw3-react-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/src/Blog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTS/Projects/uts-pw3-react-app/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pertemuan 5/CobaReactJS/try-react" beforeDir="false" afterPath="$PROJECT_DIR$/../Pertemuan 5/CobaReactJS/try-react" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CobaReactJS/try-react" beforeDir="false" afterPath="$PROJECT_DIR$/CobaReactJS/try-react" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CobaReactJS/try-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/CobaReactJS/try-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CobaReactJS/try-react/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CobaReactJS/try-react/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CobaReactJS/try-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/CobaReactJS/try-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laporan Praktikum PWEB3A 2021 15-03-21.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Laporan Praktikum PWEB3A 2021 15-03-21.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mencoba React JS/mencoba-react-js" beforeDir="false" afterPath="$PROJECT_DIR$/Mencoba React JS/mencoba-react-js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mencoba React JS/mencoba-react-js/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mencoba React JS/mencoba-react-js/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mencoba React JS/mencoba-react-js/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Mencoba React JS/mencoba-react-js/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mencoba React JS/mencoba-react-js/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mencoba React JS/mencoba-react-js/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$poran Praktikum PWEB3A 2021 15-03-21.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~WRL0960.tmp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1qjX0NtOy4V5N7mX3mzlgpgeP7O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ab7ba56-bcb4-4525-bc31-592a42b18805" name="Default Changelist" comment="" />
+      <created>1617593748669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617593748669</updated>
+      <workItem from="1617593749920" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
